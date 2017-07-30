@@ -5,7 +5,7 @@ public class trh {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		int gun,hafta,ayl;
+		
 		long gun_cevirici,hafta_cevirici,ay_cevirici;
 		gun_cevirici=Gunsonra(2017,7,30);
 		hafta_cevirici=Haftasonra(2017,7,30);
