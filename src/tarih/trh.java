@@ -58,12 +58,12 @@ return ((yil*10000)+((300))+((gun%10)+1)) ;
 return ((yil*10000)+(200) +(29));
 }else if (ay==1 && gun ==31 && (yil%4==0)){
 return ((yil*10000)+(300) +(1)); 
-}else if ((ay==4 && ay==6 && ay==9 && ay==11 )){
+}else if ((ay==4 || ay==6 || ay==9 || ay==11 )){
 return ((yil*10000)+((ay +1)*100)+(gun));
 }else if (ay==12 && gun==1){  
 return ((yil*10000)+(1200)+31); 
 }else 
-return ((yil+1)*1000 + (100) + (gun +30)%31) ;
+return ((yil+1)*10000 + (100) + (gun +30)%31) ;
 }
 
 
